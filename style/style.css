@@ -314,7 +314,7 @@ button{
     position: relative;
 }
 .discount-50{
-    background: url('/images/Rectangle\ 1.png');
+    background: url('./images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     width: 430px;
     height: 430px;
