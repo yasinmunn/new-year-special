@@ -266,5 +266,71 @@ button{
 
 /* sections six style start here */
 
+.section-content{
+    text-align: center;
+    margin-bottom: 50px;
+ 
+}
+.section-greeting{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+.section-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px;
+}
+.span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.section-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* section seven styhle */
+
+.discount-img{
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+
+.red-bg{
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    height: 230px;
+    margin-top: -30px;
+    position: relative;
+}
+.discount-50{
+    background: url('/images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 430px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.discount-inner-img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: -25%;
+    transform: translateY(-60%);
+}
+.gift-img{
+
+}
 
  
