@@ -1,0 +1,187 @@
+/* Global Style */
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* Webstie Main Style From Here  */
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/Images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.banner-section {
+    text-align: center;
+}
+
+.banner-sub,
+.banner-title {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 600px;
+    line-height: 95px;
+    font-family: Merriweather;
+}
+.banner-sub{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: -30px;
+}
+
+/* section two */
+
+.banner-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.discount {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px!important;
+}
+
+.holiday {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.catagories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner2-img {
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.banner-2 h2,
+.banner-2 p {
+    margin: 5px; 
+}
+
+/* section style three */
+.banner-bg {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+    
+.banner-3{
+    padding: 80px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-img{
+    width: 300px;
+}
+
+.banner-3-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 650px;
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+}
+.Join-now {
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+    
+/* Section four design start from here */
+
+.container{
+    padding: 80px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;  
+}
+.container-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.container-sub-item{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+button{
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
