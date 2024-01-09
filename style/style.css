@@ -376,6 +376,7 @@ main{
 .newsletter-img{
     width: 150px;
     height: 150px;
+    margin-bottom: 30px;
 }
 .newsletter-title{
     color: #070211;
@@ -393,17 +394,16 @@ main{
 }
 
 .subscribe-input{
-    width: 648px;
+    width: 500px;
     border-radius: 50px;
     background: #FFF;
     border: none;
-    padding: 30px 100px 25px 30px;
     margin-top: 30px;
+    padding: 30px 0px 25px 30px;
 }
 .subscribe-input::placeholder {
     color: rgba(7, 2, 17, 0.30);
     font-size: 18px;
-    /* padding-left: 30px; */
 }
 .subscribe-button{
     border-radius: 0px 50px 50px 0px;
@@ -412,4 +412,8 @@ main{
     font-size: 20px;
     padding: 24px 56px 24px 56px;
     border: none;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    
 }
