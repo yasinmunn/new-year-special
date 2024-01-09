@@ -1,13 +1,16 @@
 /* Global Style */
+*{
+
+}
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
 }
 main{
     max-width: 1320px;
     margin: 0 auto;
 }
+
 
 /* Webstie Main Style From Here  */
 
