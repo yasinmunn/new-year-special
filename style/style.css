@@ -350,7 +350,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 24px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -358,6 +358,10 @@ button{
 .image-container img {
     width: calc(33.33% - 20px);
     height: auto;
+}
+.image-container img:hover {
+    border: 3px solid lightgray;
+    border-radius: 17px;
 }
 
  
