@@ -168,7 +168,7 @@ main{
     text-transform: capitalize;
     margin: 0px;
 }
-button{
+.section-two-button{
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
@@ -364,4 +364,52 @@ button{
     border-radius: 17px;
 }
 
- 
+/* section eight style */
+
+.newsletter-container{
+    text-align:center;
+    padding: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 100px;
+}
+.newsletter-img{
+    width: 150px;
+    height: 150px;
+}
+.newsletter-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.newsletter-content{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribe-input{
+    width: 648px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    padding: 30px 100px 25px 30px;
+    margin-top: 30px;
+}
+.subscribe-input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    /* padding-left: 30px; */
+}
+.subscribe-button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -40px;
+    font-size: 20px;
+    padding: 24px 56px 24px 56px;
+    border: none;
+}
