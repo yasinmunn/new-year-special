@@ -332,6 +332,11 @@ main{
     left: -25%;
     transform: translateY(-60%);
 }
+.gift-img{
+    position: relative;
+    bottom: -150px;
+    right: 200px;
+}
 
 /* Grid Section Style Here */
 .section-two{
