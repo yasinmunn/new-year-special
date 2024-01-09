@@ -334,6 +334,7 @@ main{
     position: relative;
     bottom: -150px;
     right: 200px;
+    z-index:1;
 }
 
 /* Grid Section Style Here */
