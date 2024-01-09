@@ -304,9 +304,7 @@ main{
 
 .discount-img{
     display: flex;
-    justify-content:space-between;
-    
-    
+    justify-content:flex-end;  
 }
 
 .red-bg{
