@@ -411,13 +411,16 @@ main{
 .subscribe-button{
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    margin-left: -40px;
+    margin-left: -30px;
     font-size: 20px;
     padding: 24px 56px 24px 56px;
     border: none;
     color: #FFF;
     font-weight: 600;
     text-transform: capitalize;
+}
+.subscribe-form{
+    border-radius: 50%;
 }
 
 /* Footer section style */
